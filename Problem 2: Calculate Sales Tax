@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+    // Step 1: Define variables
+    double purchase = 95.0;
+    double stateTax = 0.04;  // 4% state tax
+    double countyTax = 0.02;  // 2% county tax
+    double totalTax = purchase * (stateTax + countyTax);  // Total tax
+
+    // Step 2: Display the result
+    cout << "The total sales tax on a $95 purchase is: $" << totalTax << endl;
+
+    return 0;
+}
